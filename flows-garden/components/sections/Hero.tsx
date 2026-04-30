@@ -82,24 +82,30 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[460px] lg:ml-auto lg:max-w-[520px] lg:justify-self-end">
+          <div className="relative mx-auto w-full max-w-[360px] lg:ml-auto lg:max-w-[520px] lg:justify-self-end">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-              className="relative ml-auto w-full"
-              style={{ aspectRatio: "0.8" }}
+              className="relative ml-auto w-full pb-8 pl-7 sm:max-w-[430px] lg:max-w-[520px] lg:pb-10 lg:pl-10"
             >
-              <Image
-                src="/images/Overlay+Shadow.svg"
-                alt="Garden pathway through lush plants"
-                width={1200}
-                height={1500}
-                priority
-                className="leaf-mask-a h-full w-full max-w-[500px] object-cover lg:max-w-[500px]"
-              />
+              <div className="relative aspect-[296/370] w-full overflow-hidden rounded-[24px] rounded-tr-[88px] shadow-[0_22px_34px_rgba(35,66,42,0.22)] lg:rounded-[30px] lg:rounded-tr-[112px]">
+                <Image
+                  src="/images/Overlay+Shadow.svg"
+                  alt="Garden pathway through lush plants"
+                  fill
+                  sizes="(min-width: 1024px) 480px, (min-width: 640px) 390px, 296px"
+                  priority
+                  className="object-cover"
+                />
+              </div>
 
-              <div className="absolute -bottom-8 left-0 z-10 h-[192px] w-[192px] overflow-hidden leaf-mask-b">
+              <div
+                className="absolute bottom-0 left-0 z-10 h-[192px] w-[192px] overflow-hidden rounded-bl-[128px] rounded-br-[24px] rounded-tl-[24px] rounded-tr-[24px] border-8 border-[#F4FFC8] bg-[#F4FFC8]"
+                style={{
+                  boxShadow: "0px 8px 10px -6px #0000001A, 0px 20px 25px -5px #0000001A",
+                }}
+              >
                 <Image
                   src="/images/AB6AXuCmLepISBQQbYoJ25TXPCrlWZUigiZ788WRgL0pCXu-zZ6Nvj9zRxHMeU_j6bdixjoPUKfXjCuIb3G3JjQbogp44UnbR7wJ78F0-65ZXCWzTfr94oiv-DI9mu4cIDQZwet_7z6mpsqO60vWNJHn8M_CJR7vMF63MYHJf0tWST3NOL5FKqIHNFG8qfxvO-xB3jzig8oKP2yMNrPKKr.svg"
                   alt="Hands holding young seedlings"

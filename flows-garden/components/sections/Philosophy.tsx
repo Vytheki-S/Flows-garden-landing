@@ -5,118 +5,69 @@ import { motion } from "framer-motion";
 
 export function Philosophy() {
   return (
-    <section
-      data-layer="Philosophy Section"
-      className="relative flex w-full justify-center overflow-hidden bg-transparent px-10 py-[100px] lg:px-20"
-      style={{
-        minHeight: "720px",
-        flex: "none",
-        flexGrow: 0,
-      }}
-    >
-      <div
-        data-layer="Container"
-        className="relative grid w-full max-w-[1184px] gap-[32px] lg:grid-cols-[472px_472px] lg:justify-between"
+    <section id="about" className="w-full bg-[var(--color-surface)] px-6 py-20 lg:px-12">
+      <motion.div
+        initial={{ opacity: 0, y: 28 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.25 }}
+        transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+        className="mx-auto grid min-h-[606px] w-full max-w-[1184px] items-center gap-12 rounded-[24px] bg-[#ECFAB9] px-8 py-14 md:px-16 lg:grid-cols-[1fr_472px] lg:px-20"
       >
-        <motion.div
-          data-layer="Container"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.35 }}
-          transition={{ duration: 0.65 }}
-          className="order-2 flex h-[512px] flex-col justify-center lg:order-1 lg:w-[472px]"
-        >
-          <div className="flex h-full flex-col justify-center rounded-[1px] px-2 py-2">
-            <h2
-              data-layer="Heading 2"
-              className="h-[180px] w-[472px] text-[48px] font-normal italic leading-[60px] text-[#23422A]"
-              style={{
-                fontFamily: "var(--font-display)",
-                letterSpacing: "0px",
-                verticalAlign: "middle",
-              }}
-            >
-              Urban biodiversity is
-              <br />
-              not a luxury, but a
-              <br />
-              necessity for the soul.
-            </h2>
+        <div className="max-w-[520px]">
+          <h2
+            className="text-[40px] italic leading-[1.25] text-[var(--color-primary)] md:text-[48px]"
+            style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
+          >
+            Urban biodiversity is
+            <br />
+            not a luxury, but a
+            <br />
+            necessity for the soul.
+          </h2>
 
-            <div data-layer="Container" className="mt-8 space-y-6">
-              <div data-layer="Container" className="flex h-[100px] w-[412.95px] flex-col gap-2" style={{ opacity: 1 }}>
-                <div className="flex h-[20px] w-[412.95px] items-center gap-3">
-                  <Image src="/images/Icon.svg" alt="Leaf icon" width={22} height={22} className="h-[20px] w-[20px]" />
-                  <p className="h-[20px] w-[175.25px] text-[14px] font-bold uppercase leading-[20px] text-[#75584D]" style={{ letterSpacing: "1.4px", verticalAlign: "middle" }}>
-                    Restorative Design
-                  </p>
-                </div>
-                <p className="h-[72px] w-[412.95px] text-[16px] font-normal leading-[24px] text-[#424842]" style={{ letterSpacing: "0px", verticalAlign: "middle" }}>
-                  We transform forgotten urban corners into resilient
-                  <br />
-                  micro-habitats that support local pollinators and native
-                  <br />
-                  flora.
+          <div className="mt-10 space-y-8">
+            <div className="flex gap-5">
+              <Image src="/images/Icon.svg" alt="" width={22} height={22} className="mt-0.5 h-[22px] w-[22px]" aria-hidden="true" />
+              <div>
+                <h3 className="text-[14px] font-bold uppercase leading-5 tracking-[0.12em] text-[#75584D]">Restorative Design</h3>
+                <p className="mt-2 max-w-[420px] text-[16px] leading-[1.5] text-[#424842]">
+                  We transform forgotten urban corners into resilient micro-habitats that support local pollinators and native flora.
                 </p>
               </div>
+            </div>
 
-              <div data-layer="Container" className="flex w-[413.69px] flex-col gap-2" style={{ opacity: 1 }}>
-                <div className="flex h-[20px] w-[413.69px] items-center gap-3">
-                  <Image src="/images/Icon2 .svg" alt="Knowledge icon" width={28} height={23} className="h-[20px] w-[24px]" />
-                  <p className="h-[20px] whitespace-nowrap text-[14px] font-bold uppercase leading-[20px] text-[#75584D]" style={{ letterSpacing: "1.4px", verticalAlign: "middle" }}>
-                    Shared Knowledge
-                  </p>
-                </div>
-                <p className="h-[48px] w-[413.69px] text-[16px] font-normal leading-[24px] text-[#424842]" style={{ letterSpacing: "0px", verticalAlign: "middle" }}>
-                  Education is the root of our garden. We host weekly
-                  <br />
-                  workshops to demystify permaculture for city dwellers.
+            <div className="flex gap-5">
+              <Image src="/images/Icon2%20.svg" alt="" width={28} height={23} className="mt-0.5 h-[20px] w-[24px]" aria-hidden="true" />
+              <div>
+                <h3 className="text-[14px] font-bold uppercase leading-5 tracking-[0.12em] text-[#75584D]">Shared Knowledge</h3>
+                <p className="mt-2 max-w-[445px] text-[16px] leading-[1.5] text-[#424842]">
+                  Education is the root of our garden. We host weekly workshops to demystify permaculture for city dwellers.
                 </p>
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          data-layer="Container"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.65, delay: 0.1 }}
-          className="order-1 flex h-[512px] items-center justify-center lg:order-2 lg:w-[472px]"
-        >
-          <div className="grid w-[472px] grid-cols-2 gap-4">
-            <div data-layer="Container" className="grid h-full grid-rows-[260px_196px] gap-4">
-              <div data-layer="Overlay+Shadow left above" className="relative h-[260px] w-[228px] overflow-hidden rounded-[24px]">
-                <Image src="/images/Overlay+Shadowleft%20above.svg" alt="Overlay shadow left above" fill priority className="object-cover" />
-              </div>
-
-              <div data-layer="Overlay+Shadow left down" className="relative h-[196px] w-[228px] overflow-hidden rounded-[24px]">
-                <Image src="/images/Overlay+Shadow%20leftdown.svg" alt="Overlay shadow left down" fill className="object-cover" />
-              </div>
+        <div className="grid w-full gap-4 sm:grid-cols-2 lg:w-[472px]">
+          <div className="grid gap-4 sm:pt-10">
+            <div className="relative h-[216px] overflow-hidden rounded-[18px] sm:h-[260px]">
+              <Image src="/images/Overlay+Shadowleft%20above.svg" alt="Stone path garden planting" fill priority className="object-cover" />
             </div>
-
-            <div data-layer="Container" className="grid h-full grid-rows-[192px_260px] gap-4">
-              <div data-layer="Overlay+Shadow right above" className="relative h-[192px] w-[228px] overflow-hidden rounded-[24px]">
-                <Image src="/images/Overlay+Shadow%20right%20above.svg" alt="Overlay shadow right above" fill className="object-cover" />
-              </div>
-
-              <div data-layer="Overlay+Shadow right down" className="relative h-[256px] w-[228px] overflow-hidden rounded-[24px]">
-                <Image src="/images/Overlay+Shadow%20right%20down%20.svg" alt="Overlay shadow right down" fill className="object-cover" />
-              </div>
+            <div className="relative h-[162px] overflow-hidden rounded-[18px] sm:h-[196px]">
+              <Image src="/images/Overlay+Shadow%20leftdown.svg" alt="Bee visiting lavender flowers" fill className="object-cover" />
             </div>
           </div>
-        </motion.div>
-      </div>
 
-      <Image
-        src="/images/philosophy-leaf.svg"
-        alt="Decorative botanical flourish"
-        width={700}
-        height={700}
-        className="pointer-events-none absolute -bottom-28 right-0 z-0 w-[42vw] max-w-[320px] opacity-70 md:max-w-[420px]"
-      />
+          <div className="grid gap-4">
+            <div className="relative h-[162px] overflow-hidden rounded-[18px] sm:h-[192px]">
+              <Image src="/images/Overlay+Shadow%20right%20above.svg" alt="Garden tools and plant pots" fill className="object-cover" />
+            </div>
+            <div className="relative h-[216px] overflow-hidden rounded-[18px] sm:h-[256px]">
+              <Image src="/images/Overlay+Shadow%20right%20down%20.svg" alt="Community garden workshop" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </motion.div>
     </section>
   );
 }
-
