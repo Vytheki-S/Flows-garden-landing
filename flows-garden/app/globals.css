@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #23422a;
+  --color-secondary: #75584d;
+  --color-tertiary: #711e0e;
+  --color-surface: #f4ffc8;
+  --color-surface-soft: #edf2c0;
+  --color-surface-deep: #dfeab0;
+  --color-ghost: rgba(35, 66, 42, 0.2);
+
+  --font-display: "Newsreader", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --background: var(--color-surface);
+  --foreground: var(--color-primary);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.03em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.leaf-mask-a {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.leaf-mask-b {
+  border-radius: 44% 56% 68% 32% / 40% 29% 71% 60%;
+}
+
+.leaf-mask-c {
+  border-radius: 51% 49% 28% 72% / 68% 32% 58% 42%;
+}
+
+.ghost-border {
+  border: 1px solid var(--color-ghost);
+}
+
+.tonal-panel-soft {
+  background: var(--color-surface-soft);
+}
+
+.tonal-panel-deep {
+  background: var(--color-surface-deep);
+}
+
+.glass-overlay {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
