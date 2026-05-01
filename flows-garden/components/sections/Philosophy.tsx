@@ -37,7 +37,7 @@ export function Philosophy() {
             </div>
 
             <div className="flex gap-5">
-              <Image src="/images/Icon2%20.svg" alt="" width={28} height={23} className="mt-0.5 h-[20px] w-[24px]" aria-hidden="true" />
+              <Image src="/images/icon-knowledge.svg" alt="" width={28} height={23} className="mt-0.5 h-[20px] w-[24px]" aria-hidden="true" />
               <div>
                 <h3 className="text-[14px] font-bold uppercase leading-5 tracking-[0.12em] text-[#75584D]">Shared Knowledge</h3>
                 <p className="mt-2 max-w-[445px] text-[16px] leading-[1.5] text-[#424842]">
@@ -51,19 +51,19 @@ export function Philosophy() {
         <div className="grid w-full gap-4 sm:grid-cols-2 lg:w-[472px]">
           <div className="grid gap-4 sm:pt-10">
             <div className="relative h-[216px] overflow-hidden rounded-[18px] sm:h-[260px]">
-              <Image src="/images/Overlay+Shadowleft%20above.svg" alt="Stone path garden planting" fill priority className="object-cover" />
+              <Image src="/images/philosophy-path.svg" alt="Stone path garden planting" fill priority className="object-cover" />
             </div>
             <div className="relative h-[162px] overflow-hidden rounded-[18px] sm:h-[196px]">
-              <Image src="/images/Overlay+Shadow%20leftdown.svg" alt="Bee visiting lavender flowers" fill className="object-cover" />
+              <Image src="/images/philosophy-bee.svg" alt="Bee visiting lavender flowers" fill className="object-cover" />
             </div>
           </div>
 
           <div className="grid gap-4">
             <div className="relative h-[162px] overflow-hidden rounded-[18px] sm:h-[192px]">
-              <Image src="/images/Overlay+Shadow%20right%20above.svg" alt="Garden tools and plant pots" fill className="object-cover" />
+              <Image src="/images/philosophy-tools.svg" alt="Garden tools and plant pots" fill className="object-cover" />
             </div>
             <div className="relative h-[216px] overflow-hidden rounded-[18px] sm:h-[256px]">
-              <Image src="/images/Overlay+Shadow%20right%20down%20.svg" alt="Community garden workshop" fill className="object-cover" />
+              <Image src="/images/philosophy-workshop.svg" alt="Community garden workshop" fill className="object-cover" />
             </div>
           </div>
         </div>

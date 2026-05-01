@@ -9,7 +9,7 @@ const cards = [
     title: "Crimson Bottlebrush",
     scientific: "CALLISTEMON CITRINUS",
     description: "A resilient shrub known for its architectural blooms that provide essential nectar for native honeyeaters.",
-    image: "/images/AB6AXuA-N-xkgs3GBeTC27LS0HnuQa9FZmnCR7KLxyaYGR4Qz2uZkbGSnRy8QQe7mvYpFckIFiiP-L019VZzRY8Y4auPXjhh-WcD7eveeCH2l0J26V1FMps_KrJ2-ubVY2HTL7oWHjbwZkkpNBrtQa_BCkX3XVMvw1G3ReOqeJatB59Eu25d2VeOC2tqJY1LFYxkQno4uL5yQhwMPpYui2.svg",
+    image: "/images/flora-bottlebrush.svg",
     imageClassName: "rounded-[18px] rounded-tr-[8px]",
   },
   {
@@ -18,7 +18,7 @@ const cards = [
     title: "Blue Glow Agave",
     scientific: "AGAVE 'BLUE GLOW'",
     description: "Perfect for urban heat islands, this succulent offers a striking silhouette with minimal water requirements.",
-    image: "/images/AB6AXuDYgBVpkyWgij0rgDc-YbJY8F_K_pBHiFzHdlh5p1doWaS4N4LmqH0tPkhs2KfqmhDG5ErgFtMxK1vq6obnc5vPaXfUriYFFfjnpjpQkwqPmGUIRuPhuEm-is8K-DkBpuFzOEkHQR1RE40JKrF97oe-jXVFtECtGVjwh5JTNW6QXq22pr3-pSTXcG90eVY9hdtskLN7-5A6RCyGA6.svg",
+    image: "/images/flora-agave.svg",
     imageClassName: "rounded-[18px] rounded-tl-[8px]",
   },
   {
@@ -27,7 +27,7 @@ const cards = [
     title: "Silver Lady Fern",
     scientific: "BLECHNUM GIBBUM",
     description: "Bringing a lush, prehistoric feel to shaded balconies and indoor-outdoor transition spaces.",
-    image: "/images/AB6AXuBqV4a6Z7xlcCl4pVJ7AkLYelFZwgJ30fBvJ_STJsXYREvoyIdLPWOXq1gOFlH-BQOJd7NZ3qFWpcLUdfB4QqgIgVTbEDRwnmFflxFwS5VQb00iR-4vxUqByyH9Zn2J6PFw7Ezxof2sUgSQkrCqgqBLWAcUnS2Yulistds5MxcQmCHsukThZ17Qf0asJMjilnJ5O-3mKk0cSz (1).svg",
+    image: "/images/flora-fern.svg",
     imageClassName: "rounded-[18px] rounded-br-[8px]",
   },
 ];

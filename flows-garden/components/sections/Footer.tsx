@@ -34,7 +34,7 @@ export function Footer() {
             aria-label="Share Flows Garden"
             className="inline-flex h-7 w-7 items-center justify-center justify-self-end rounded-full bg-[rgba(244,255,200,0.12)] transition-transform duration-200 hover:-translate-y-0.5"
           >
-            <Image src="/images/Icon%20(2).svg" alt="" width={14} height={15} className="h-[15px] w-[14px]" aria-hidden="true" />
+            <Image src="/images/icon-footer.svg" alt="" width={14} height={15} className="h-[15px] w-[14px]" aria-hidden="true" />
           </button>
         </div>
 

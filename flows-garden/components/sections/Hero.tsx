@@ -91,7 +91,7 @@ export function Hero() {
             >
               <div className="relative aspect-[296/370] w-full overflow-hidden rounded-[24px] rounded-tr-[88px] shadow-[0_22px_34px_rgba(35,66,42,0.22)] lg:rounded-[30px] lg:rounded-tr-[112px]">
                 <Image
-                  src="/images/Overlay+Shadow.svg"
+                  src="/images/hero-garden.svg"
                   alt="Garden pathway through lush plants"
                   fill
                   sizes="(min-width: 1024px) 480px, (min-width: 640px) 390px, 296px"
@@ -107,7 +107,7 @@ export function Hero() {
                 }}
               >
                 <Image
-                  src="/images/AB6AXuCmLepISBQQbYoJ25TXPCrlWZUigiZ788WRgL0pCXu-zZ6Nvj9zRxHMeU_j6bdixjoPUKfXjCuIb3G3JjQbogp44UnbR7wJ78F0-65ZXCWzTfr94oiv-DI9mu4cIDQZwet_7z6mpsqO60vWNJHn8M_CJR7vMF63MYHJf0tWST3NOL5FKqIHNFG8qfxvO-xB3jzig8oKP2yMNrPKKr.svg"
+                  src="/images/hero-seedlings.svg"
                   alt="Hands holding young seedlings"
                   width={192}
                   height={192}
