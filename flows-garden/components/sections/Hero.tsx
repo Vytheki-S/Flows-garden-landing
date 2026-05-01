@@ -26,7 +26,7 @@ export function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:gap-14">
           <div className="max-w-2xl">
             <p className="text-[0.7rem] uppercase tracking-[0.34em] text-[var(--color-secondary)] sm:text-[0.78rem]">
-              — Established 2024
+              - Established 2024
             </p>
 
             <h1
@@ -76,7 +76,7 @@ export function Hero() {
               >
                 Our Process
                 <span aria-hidden="true" className="text-base">
-                  →
+                  -&gt;
                 </span>
               </a>
             </div>
@@ -101,7 +101,7 @@ export function Hero() {
               </div>
 
               <div
-                className="absolute bottom-0 left-0 z-10 h-[192px] w-[192px] overflow-hidden rounded-bl-[128px] rounded-br-[24px] rounded-tl-[24px] rounded-tr-[24px] border-8 border-[#F4FFC8] bg-[#F4FFC8]"
+                className="absolute bottom-0 left-0 z-10 h-[192px] w-[192px] overflow-hidden rounded-bl-[128px] rounded-br-[24px] rounded-tl-[24px] rounded-tr-[24px] bg-[#F4FFC8] p-2"
                 style={{
                   boxShadow: "0px 8px 10px -6px #0000001A, 0px 20px 25px -5px #0000001A",
                 }}
@@ -111,7 +111,7 @@ export function Hero() {
                   alt="Hands holding young seedlings"
                   width={192}
                   height={192}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full rounded-bl-[120px] rounded-br-[18px] rounded-tl-[18px] rounded-tr-[18px] object-cover"
                   priority
                 />
               </div>
@@ -122,4 +122,3 @@ export function Hero() {
     </section>
   );
 }
-

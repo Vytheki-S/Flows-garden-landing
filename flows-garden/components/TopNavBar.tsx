@@ -106,7 +106,7 @@ export function TopNavBar() {
         {/* Horizontal Divider */}
         <div
           data-layer="Horizontal Divider"
-          className="h-px bg-[rgba(35,66,42,0.18)]"
+          className="h-3 bg-[linear-gradient(90deg,transparent,rgba(35,66,42,0.14),transparent)]"
         />
       </div>
     </header>

@@ -38,10 +38,10 @@ export function Footer() {
           </button>
         </div>
 
-        <div className="absolute left-7 right-7 top-[139px] h-px bg-[rgba(244,255,200,0.14)]" />
+        <div className="absolute left-7 right-7 top-[134px] h-3 bg-[linear-gradient(90deg,transparent,rgba(244,255,200,0.16),transparent)]" />
 
         <div className="absolute left-7 right-7 top-[163px] text-center text-[10px] uppercase leading-none tracking-[0.13em] text-[rgba(244,255,200,0.42)]">
-          &copy; 2024 FLOWS GARDEN &mdash; CULTIVATING THE WILD
+          &copy; 2024 FLOWS GARDEN - CULTIVATING THE WILD
         </div>
 
         <button
